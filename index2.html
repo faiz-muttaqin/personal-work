@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tugas Array</h1>
+    <script>
+
+        var a =5;
+        var b = 6;
+        var c = 7;
+        var x = 10;
+
+        const Array1 = [ 2, 5, 10, 'ini dia', 'data', 100 , 38 ]
+        const Array2 = [ 3, 100, 283, 'saya', 'adalah', 'kapiten', 75 ]
+        const Array3 = [ 29, 12, 30, 'ini', 'saya', 85 ]
+        const Array4 = [ 20, 12, 43, 54, 24 ]
+        const Array5 = [ 20, 'empat', 'limat', 8, 29, 30 ]
+        const Array6 = [ 'data', 'empat', 8 , 3, 100, 8, 100, 3  ]
+
+        //If Statement Array1
+        if(Array1.length<50){
+            console.log("Panjang Array1<50")
+            for(let i = 0; i < Array1.length; i++){
+                console.log(Array1[i])
+            }
+        }else{
+            console.log("Panjang Array1>=50")
+            console.log(false)
+        }
+
+        //If Statement Array2
+        if((b+Array2.length) != 32){
+            console.log("Panjang Array2 + Nilai B !=32")
+            for(let i = 0; i < Array2.length; i++){
+                console.log(Array2[i])
+            }
+        }else{
+            console.log("Panjang Array1 + Nilai B = 32")
+            console.log(false)
+        }
+
+        //If Statement Array3
+        if((Array3.length+a) == 28){
+            console.log("Panjang Array3 + Nilai A = 28")
+            for(let i = 0; i < Array3.length; i++){
+                console.log(Array3[i])
+            }
+        }else{
+            console.log("Panjang Array3 + Nilai A != 28")
+            console.log(false)
+        }
+
+        //If Statement Array4
+        if((Array4.length+1) != 35){
+            console.log("Panjang Array4 + 1 != 35")
+            for(let i = 0; i < Array4.length; i++){
+                console.log(Array4[i])
+            }
+        }else{
+            console.log("Panjang Array4 + 1 != 35")
+            console.log(false)
+        }
+
+        //If Statement Array5
+        if((x+Array5.length) !=35){
+            console.log("Panjang Array5 + Nilai X !=35")
+            for(let i = 0; i < Array5.length; i++){
+                console.log(Array5[i])
+            }
+        }else{
+            console.log("Panjang Array5 + Nilai X =35")
+            console.log(false)
+        }
+
+        //If Statement Array6
+        if((c+Array6.length+a) != 25){
+            console.log("Panjang Array6 + Nilai A + Nilai C != 25")
+            for(let i = 0; i < Array6.length; i++){
+                console.log(Array6[i])
+            }
+        }else{
+            console.log("Panjang Array6 + Nilai A + Nilai C = 25")
+            console.log(false)
+        }
+         
+
+    </script>
+</body>
+</html>
